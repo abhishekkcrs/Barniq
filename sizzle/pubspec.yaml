@@ -1,0 +1,65 @@
+name: sizzle
+description: "A new Flutter project."
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  google_fonts: ^6.1.0
+  google_maps_flutter: ^2.5.3
+  google_sign_in: ^6.3.0
+  flutter_secure_storage: ^9.0.0
+  shared_preferences: ^2.2.2
+  flutter_riverpod: ^2.4.9
+  riverpod_annotation: ^2.3.3
+  firebase_core: 2.24.2
+  firebase_auth: 4.15.3
+  font_awesome_flutter: ^10.8.0
+  provider: ^6.1.4
+  dotenv: ^4.2.0
+  flutter_dotenv: ^5.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+  build_runner: ^2.4.7
+  riverpod_generator: ^2.3.9
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/utils/
+    - assets/images/groceries/
+    - assets/images/beauty/
+    - assets/images/medicines/
+    - assets/images/clothes/
+    - assets/images/food/
+    - assets/images/milk/
+    - assets/images/bread/
+    - assets/images/eggs/
+    - assets/images/organic/
+    - assets/images/smart_devices/
+    - assets/images/fitness/
+    - assets/images/home_decor/
+    - assets/images/fruits/
+    - assets/images/dry_fruits/
+    - assets/images/milk_products/
+    - assets/images/grains/
+    - assets/images/featured/
+    - assets/images/core/
+    - .env
